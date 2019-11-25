@@ -3,18 +3,21 @@
     <theNav></theNav>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <theFooter></theFooter>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import theNav from "./components/theNav.vue";
+import theFooter from "./components/theFooter.vue";
 
 export default {
   name: "app",
   components: {
     HelloWorld,
-    theNav
+    theNav,
+    theFooter
   }
 };
 </script>
