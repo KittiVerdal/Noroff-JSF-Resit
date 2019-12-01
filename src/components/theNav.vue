@@ -9,9 +9,15 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="[ navheader_list ]">
-          <b-nav-item class="[ navheader_list--item ]" href="#">Home</b-nav-item>
-          <b-nav-item class="[ navheader_list--item ]" href="#">Grass</b-nav-item>
-          <b-nav-item class="[ navheader_list--item ]" href="#">Contact</b-nav-item>
+          <b-nav-item class="[ navheader_list--item ]">
+            <router-link to="/contact">Home</router-link>
+          </b-nav-item>
+          <b-nav-item class="[ navheader_list--item ]">
+            <router-link to="/grass">Grass</router-link>
+          </b-nav-item>
+          <b-nav-item class="[ navheader_list--item ]">
+            <router-link to="/contact">Contact</router-link>
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

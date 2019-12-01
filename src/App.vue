@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <theNav></theNav>
-    <card></card>
+    <router-view></router-view>
     <theFooter></theFooter>
   </div>
 </template>
@@ -9,14 +9,12 @@
 <script>
 import theNav from "./components/theNav.vue";
 import theFooter from "./components/theFooter.vue";
-import card from "./components/card.vue";
 
 export default {
   name: "app",
   components: {
     theNav,
-    theFooter,
-    card
+    theFooter
   }
 };
 </script>
