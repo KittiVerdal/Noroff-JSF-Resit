@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
-import CardPage from "./pages/CardPage.vue"
+import CardPage from "./pages/CardPage.vue";
 import ContactPage from "./pages/ContactPage.vue";
 import GrassPage from "./pages/GrassPage.vue";
 import BootstrapVue from "bootstrap-vue";
@@ -12,8 +12,8 @@ Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
 
 const router = new VueRouter({
-  routes: [{
-
+  routes: [
+    {
       path: "/",
       name: "home",
       component: CardPage

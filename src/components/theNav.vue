@@ -2,7 +2,11 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="danger">
       <b-navbar-brand href="#">
-        <img src="./../assets/pokemon-logo.png" alt="pokemon logo" class="[ navheader_logo ]" />
+        <img
+          src="./../assets/pokemon-logo.png"
+          alt="pokemon logo"
+          class="[ navheader_logo ]"
+        />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
