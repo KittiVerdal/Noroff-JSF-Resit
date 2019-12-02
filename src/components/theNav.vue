@@ -2,11 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="danger">
       <b-navbar-brand href="#">
-        <img
-          src="./../assets/pokemon-logo.png"
-          alt="pokemon logo"
-          class="[ navheader_logo ]"
-        />
+        <img src="./../assets/pokemon-logo.png" alt="pokemon logo" class="[ navheader_logo ]" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -14,7 +10,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="[ navheader_list ]">
           <b-nav-item class="[ navheader_list--item ]">
-            <router-link to="/contact">Home</router-link>
+            <router-link to="/">Home</router-link>
           </b-nav-item>
           <b-nav-item class="[ navheader_list--item ]">
             <router-link to="/grass">Grass</router-link>
